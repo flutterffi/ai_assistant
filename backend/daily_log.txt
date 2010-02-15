@@ -8,3 +8,4 @@
 [2010-01-26] Updated documentation references.
 [2010-01-30] Reviewed test coverage gaps.
 [2010-02-07] Documented debugging session findings.
+[2010-02-15] Reviewed code structure and made notes.
