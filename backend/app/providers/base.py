@@ -9,6 +9,12 @@ class ProviderError(Exception):
 
 class BaseProvider(ABC):
     name: str = "base"
+    default_model: str = ""
+
+    @property
+    @abstractmethod
+    def configured(self) -> bool:
+        """该供应商的 API Key 是否已配置。"""
 
     @abstractmethod
     async def chat_stream(

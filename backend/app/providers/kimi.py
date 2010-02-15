@@ -10,6 +10,11 @@ from .base import BaseProvider, ProviderError
 
 class KimiProvider(BaseProvider):
     name = "kimi"
+    default_model = settings.kimi_model
+
+    @property
+    def configured(self) -> bool:
+        return bool(settings.kimi_api_key)
 
     def _headers(self) -> dict:
         if not settings.kimi_api_key:

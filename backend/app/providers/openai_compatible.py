@@ -10,6 +10,11 @@ from .base import BaseProvider, ProviderError
 
 class OpenAICompatibleProvider(BaseProvider):
     name = "openai"
+    default_model = settings.openai_model
+
+    @property
+    def configured(self) -> bool:
+        return bool(settings.openai_api_key)
 
     def _headers(self) -> dict:
         if not settings.openai_api_key:

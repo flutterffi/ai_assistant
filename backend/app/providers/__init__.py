@@ -21,6 +21,18 @@ def list_providers() -> list[str]:
     return list(_REGISTRY.keys())
 
 
+def provider_details() -> list[dict]:
+    """返回每个供应商的名称、默认模型、配置状态。"""
+    return [
+        {
+            "name": p.name,
+            "default_model": p.default_model,
+            "configured": p.configured,
+        }
+        for p in _REGISTRY.values()
+    ]
+
+
 # 默认注册
 register_provider("kimi", KimiProvider())
 register_provider("openai", OpenAICompatibleProvider())

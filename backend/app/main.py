@@ -18,7 +18,7 @@ from fastapi.responses import StreamingResponse
 
 from . import __version__
 from .config import settings
-from .providers import get_provider, list_providers
+from .providers import get_provider, list_providers, provider_details
 from .providers.base import ProviderError
 from .schemas import ChatRequest, HealthResponse
 
@@ -65,6 +65,12 @@ async def health() -> HealthResponse:
 @app.get("/api/providers")
 async def providers() -> dict:
     return {"providers": list_providers()}
+
+
+@app.get("/api/providers/detail")
+async def providers_detail() -> dict:
+    """返回供应商列表及密钥配置状态，供前端展示可用模型。"""
+    return {"providers": provider_details()}
 
 
 @app.post("/api/chat")
