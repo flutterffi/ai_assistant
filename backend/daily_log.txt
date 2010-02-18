@@ -10,3 +10,4 @@
 [2010-02-07] Documented debugging session findings.
 [2010-02-15] Reviewed code structure and made notes.
 [2010-02-16] Updated coding standards reference.
+[2010-02-18] Notes on performance optimization ideas.
