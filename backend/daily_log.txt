@@ -11,3 +11,4 @@
 [2010-02-15] Reviewed code structure and made notes.
 [2010-02-16] Updated coding standards reference.
 [2010-02-18] Notes on performance optimization ideas.
+[2010-02-25] Explored new technique for handling edge cases.
