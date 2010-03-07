@@ -13,3 +13,4 @@
 [2010-02-18] Notes on performance optimization ideas.
 [2010-02-25] Explored new technique for handling edge cases.
 [2010-02-28] Documented debugging session findings.
+[2010-03-07] Reviewed code structure and made notes.
