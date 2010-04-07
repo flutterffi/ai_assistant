@@ -21,3 +21,4 @@
 [2010-03-29] Cleaned up unused imports.
 [2010-04-01] Documented API behavior changes.
 [2010-04-05] Fixed minor formatting issues.
+[2010-04-07] Documented debugging session findings.
