@@ -22,6 +22,10 @@ class Settings(BaseSettings):
     request_timeout: int = 120
     cors_origins: str = "http://localhost:3000"
 
+    # 输入校验
+    max_messages: int = 50
+    max_message_length: int = 8000
+
     @property
     def cors_origin_list(self) -> List[str]:
         return [o.strip() for o in self.cors_origins.split(",") if o.strip()]

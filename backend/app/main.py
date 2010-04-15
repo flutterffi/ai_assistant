@@ -18,6 +18,8 @@ from fastapi.responses import StreamingResponse
 
 from . import __version__
 from .config import settings
+from .middleware.logging import AccessLogMiddleware
+from .middleware.request_id import RequestIdMiddleware, request_id_ctx
 from .providers import get_provider, list_providers, provider_details
 from .providers.base import ProviderError
 from .schemas import ChatRequest, HealthResponse
@@ -27,6 +29,8 @@ logger = logging.getLogger("ai_assistant")
 
 app = FastAPI(title="AI Assistant Gateway", version=__version__)
 
+app.add_middleware(AccessLogMiddleware)
+app.add_middleware(RequestIdMiddleware)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.cors_origin_list,
@@ -62,6 +66,16 @@ async def health() -> HealthResponse:
     return HealthResponse(status="ok", version=__version__)
 
 
+@app.get("/health/detail")
+async def health_detail() -> dict:
+    """详细健康检查：包含各供应商密钥配置状态（不泄露密钥本身）。"""
+    return {
+        "status": "ok",
+        "version": __version__,
+        "providers": provider_details(),
+    }
+
+
 @app.get("/api/providers")
 async def providers() -> dict:
     return {"providers": list_providers()}
@@ -95,8 +109,29 @@ async def chat(request: Request):
     except ProviderError as e:
         raise HTTPException(status_code=400, detail=str(e))
 
+    # 输入校验：限制消息数量与单条长度，防止滥用
+    if len(chat_req.messages) > settings.max_messages:
+        raise HTTPException(
+            status_code=413,
+            detail=f"消息数量超过上限 {settings.max_messages}",
+        )
+    for i, m in enumerate(chat_req.messages):
+        if len(m.content) > settings.max_message_length:
+            raise HTTPException(
+                status_code=413,
+                detail=f"第 {i + 1} 条消息长度超过上限 {settings.max_message_length}",
+            )
+        if m.role not in {"system", "user", "assistant"}:
+            raise HTTPException(status_code=422, detail=f"非法角色: {m.role}")
+
     messages = [m.model_dump() for m in chat_req.messages]
-    logger.info("chat request ip=%s provider=%s msgs=%d", client_ip, provider_name, len(messages))
+    logger.info(
+        "chat request req_id=%s ip=%s provider=%s msgs=%d",
+        request_id_ctx.get(),
+        client_ip,
+        provider_name,
+        len(messages),
+    )
 
     async def generate():
         # AI SDK 数据流协议：每行 "type:json_value"
