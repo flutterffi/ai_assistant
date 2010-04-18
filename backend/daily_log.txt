@@ -23,3 +23,4 @@
 [2010-04-05] Fixed minor formatting issues.
 [2010-04-07] Documented debugging session findings.
 [2010-04-09] Added new insights from reading.
+[2010-04-18] Updated project dependencies notes.
