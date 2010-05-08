@@ -26,3 +26,4 @@
 [2010-04-18] Updated project dependencies notes.
 [2010-04-27] Refactored small utility function.
 [2010-05-05] Daily progress checkpoint.
+[2010-05-08] Reviewed code structure and made notes.
