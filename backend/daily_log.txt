@@ -28,3 +28,4 @@
 [2010-05-05] Daily progress checkpoint.
 [2010-05-08] Reviewed code structure and made notes.
 [2010-05-12] Updated changelog for recent changes.
+[2010-05-13] Updated changelog for recent changes.
