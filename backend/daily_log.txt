@@ -34,3 +34,4 @@
 [2010-05-23] Reviewed code structure and made notes.
 [2010-05-26] Documented debugging session findings.
 [2010-05-30] Documented debugging session findings.
+[2010-06-07] Documented debugging session findings.
