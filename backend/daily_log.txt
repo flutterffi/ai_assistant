@@ -42,3 +42,4 @@
 [2010-07-03] Reviewed security best practices.
 [2010-07-08] Fixed minor formatting issues.
 [2010-07-15] Notes on architecture decision trade-offs.
+[2010-07-20] Explored new technique for handling edge cases.
