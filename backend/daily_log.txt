@@ -46,3 +46,4 @@
 [2010-07-27] Updated changelog for recent changes.
 [2010-07-28] Documented debugging session findings.
 [2010-07-30] Added new insights from reading.
+[2010-07-31] Added new insights from reading.
