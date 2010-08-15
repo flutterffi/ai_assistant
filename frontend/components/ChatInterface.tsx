@@ -5,10 +5,16 @@ import { useChat } from "ai/react";
 import MessageBubble from "./MessageBubble";
 import ProviderSelector, { type ProviderOption } from "./ProviderSelector";
 import SettingsPanel from "./SettingsPanel";
+import ConversationSidebar from "./ConversationSidebar";
+import { useConversations } from "@/lib/useConversations";
 import { useLocalStorage } from "@/lib/useLocalStorage";
-import { CHAT_API, PROVIDERS_API } from "@/lib/api";
-
-const STORAGE_KEY = "ai_assistant_conversation";
+import {
+  CHAT_API,
+  PROVIDERS_API,
+  conversationApi,
+  type Conversation,
+  type ConversationMessage,
+} from "@/lib/api";
 
 interface ChatSettings {
   temperature: number;
@@ -16,16 +22,16 @@ interface ChatSettings {
 }
 
 export default function ChatInterface() {
+  const { conversations, createConversation, renameConversation, deleteConversation } =
+    useConversations();
   const [providers, setProviders] = useState<ProviderOption[]>([]);
   const [provider, setProvider] = useState<string>("kimi");
+  const [activeConv, setActiveConv] = useState<Conversation | null>(null);
   const [showSettings, setShowSettings] = useState(false);
   const [settings, setSettings] = useLocalStorage<ChatSettings>(
     "ai_assistant_settings",
     { temperature: 0.7, maxTokens: null },
   );
-  const [savedMessages, setSavedMessages] = useLocalStorage<
-    { role: string; content: string }[]
-  >(STORAGE_KEY, []);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const { messages, input, handleInputChange, handleSubmit, isLoading, error, setMessages } =
@@ -35,25 +41,18 @@ export default function ChatInterface() {
         provider,
         temperature: settings.temperature,
         max_tokens: settings.maxTokens,
+        conversation_id: activeConv?.id ?? null,
       },
-      initialMessages: savedMessages.map((m, i) => ({
-        id: `init-${i}`,
-        role: m.role as "user" | "assistant",
-        content: m.content,
-      })),
       onFinish: () => {
-        // 持久化到 localStorage
-        setSavedMessages(
-          messagesRef.current.map((m) => ({ role: m.role, content: m.content })),
-        );
+        // 首条用户消息自动生成会话标题
+        if (activeConv) {
+          const firstUser = messages.find((m) => m.role === "user");
+          if (firstUser && activeConv.title === "新对话") {
+            renameConversation(activeConv.id, firstUser.content.slice(0, 30));
+          }
+        }
       },
     });
-
-  // 用 ref 保持最新 messages 供 onFinish 使用
-  const messagesRef = useRef(messages);
-  useEffect(() => {
-    messagesRef.current = messages;
-  }, [messages]);
 
   // 拉取供应商列表
   useEffect(() => {
@@ -68,26 +67,74 @@ export default function ChatInterface() {
       .catch((e) => console.error("fetch providers failed:", e));
   }, []);
 
-  // 自动滚动到底部
+  // 自动滚动
   useEffect(() => {
-    scrollRef.current?.scrollTo({
-      top: scrollRef.current.scrollHeight,
-      behavior: "smooth",
-    });
+    scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
   }, [messages]);
+
+  // 切换会话时加载历史消息
+  const loadConversation = async (conv: Conversation) => {
+    setActiveConv(conv);
+    setProvider(conv.provider);
+    try {
+      const res = await fetch(conversationApi(conv.id));
+      if (res.ok) {
+        const data = await res.json();
+        const msgs: ConversationMessage[] = data.messages ?? [];
+        setMessages(
+          msgs.map((m) => ({
+            id: m.id,
+            role: m.role as "user" | "assistant",
+            content: m.content,
+          })),
+        );
+      }
+    } catch (e) {
+      console.error("load conversation failed:", e);
+    }
+  };
+
+  const handleCreate = async () => {
+    const conv = await createConversation({ provider, system_prompt: "" });
+    if (conv) {
+      setActiveConv(conv);
+      setMessages([]);
+    }
+  };
+
+  const handleDelete = async (id: string) => {
+    await deleteConversation(id);
+    if (activeConv?.id === id) {
+      setActiveConv(null);
+      setMessages([]);
+    }
+  };
 
   const handleClear = () => {
     setMessages([]);
-    setSavedMessages([]);
+    if (activeConv) {
+      setActiveConv(null);
+    }
   };
 
   return (
-    <div className="mx-auto flex h-screen max-w-5xl gap-4 px-4 py-6">
+    <div className="flex h-screen bg-slate-50">
+      <ConversationSidebar
+        conversations={conversations}
+        activeId={activeConv?.id ?? null}
+        onSelect={loadConversation}
+        onCreate={handleCreate}
+        onRename={renameConversation}
+        onDelete={handleDelete}
+      />
+
       <div className="flex flex-1 flex-col">
-        <header className="mb-4 flex items-center justify-between">
+        <header className="flex items-center justify-between border-b border-slate-200 bg-white px-6 py-3">
           <div>
-            <h1 className="text-2xl font-bold text-slate-800">AI Assistant</h1>
-            <p className="text-sm text-slate-500">安全网关架构 · 密钥不出后端</p>
+            <h1 className="text-lg font-semibold text-slate-800">
+              {activeConv?.title ?? "AI Assistant"}
+            </h1>
+            <p className="text-xs text-slate-500">安全网关架构 · 密钥不出后端</p>
           </div>
           <div className="flex items-center gap-3">
             <ProviderSelector
@@ -106,12 +153,12 @@ export default function ChatInterface() {
 
         <div
           ref={scrollRef}
-          className="flex-1 space-y-4 overflow-y-auto rounded-xl border border-slate-200 bg-slate-50/50 p-4 shadow-inner"
+          className="flex-1 space-y-4 overflow-y-auto p-6"
         >
           {messages.length === 0 ? (
-            <p className="py-10 text-center text-slate-400">
-              开始一段对话吧，输入消息后按 Enter 发送。
-            </p>
+            <div className="flex h-full items-center justify-center">
+              <p className="text-slate-400">开始一段对话吧，输入消息后按 Enter 发送。</p>
+            </div>
           ) : (
             messages.map((m) => <MessageBubble key={m.id} message={m} />)
           )}
@@ -122,26 +169,28 @@ export default function ChatInterface() {
           )}
         </div>
 
-        <form onSubmit={handleSubmit} className="mt-4 flex gap-2">
-          <input
-            className="flex-1 rounded-lg border border-slate-300 px-4 py-2.5 focus:border-brand-500 focus:outline-none"
-            placeholder="输入消息…（Shift+Enter 换行）"
-            value={input}
-            onChange={handleInputChange}
-            disabled={isLoading}
-          />
-          <button
-            type="submit"
-            disabled={isLoading || !input.trim()}
-            className="rounded-lg bg-brand-600 px-6 py-2.5 font-medium text-white transition hover:bg-brand-700 disabled:cursor-not-allowed disabled:opacity-50"
-          >
-            {isLoading ? "生成中…" : "发送"}
-          </button>
+        <form onSubmit={handleSubmit} className="border-t border-slate-200 bg-white p-4">
+          <div className="mx-auto flex max-w-3xl gap-2">
+            <input
+              className="flex-1 rounded-lg border border-slate-300 px-4 py-2.5 focus:border-brand-500 focus:outline-none"
+              placeholder="输入消息…（Shift+Enter 换行）"
+              value={input}
+              onChange={handleInputChange}
+              disabled={isLoading}
+            />
+            <button
+              type="submit"
+              disabled={isLoading || !input.trim()}
+              className="rounded-lg bg-brand-600 px-6 py-2.5 font-medium text-white transition hover:bg-brand-700 disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              {isLoading ? "生成中…" : "发送"}
+            </button>
+          </div>
         </form>
       </div>
 
       {showSettings && (
-        <aside className="w-64 shrink-0">
+        <aside className="w-64 shrink-0 border-l border-slate-200 bg-white p-4">
           <SettingsPanel settings={settings} onChange={setSettings} onClear={handleClear} />
         </aside>
       )}
