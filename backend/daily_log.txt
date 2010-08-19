@@ -49,3 +49,4 @@
 [2010-07-31] Added new insights from reading.
 [2010-08-09] Reviewed code structure and made notes.
 [2010-08-10] Updated coding standards reference.
+[2010-08-19] Daily progress checkpoint.
