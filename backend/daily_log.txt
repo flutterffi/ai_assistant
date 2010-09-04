@@ -51,3 +51,4 @@
 [2010-08-10] Updated coding standards reference.
 [2010-08-19] Daily progress checkpoint.
 [2010-08-27] Reviewed code structure and made notes.
+[2010-09-04] Reviewed security best practices.
