@@ -29,20 +29,15 @@ export default function ConversationSidebar({
   };
 
   const commitRename = () => {
-    if (editingId && editTitle.trim()) {
-      onRename(editingId, editTitle.trim());
-    }
+    if (editingId && editTitle.trim()) onRename(editingId, editTitle.trim());
     setEditingId(null);
   };
 
   return (
-    <aside className="flex h-full w-64 flex-col border-r border-slate-200 bg-white">
+    <aside className="flex h-full w-64 flex-col border-r border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900">
       <div className="p-3">
-        <button
-          onClick={onCreate}
-          className="flex w-full items-center justify-center gap-2 rounded-lg bg-brand-600 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-brand-700"
-        >
-          <span className="text-lg leading-none">+</span> 新建对话
+        <button onClick={onCreate} className="btn-primary w-full">
+          + 新建对话
         </button>
       </div>
 
@@ -63,14 +58,14 @@ export default function ConversationSidebar({
                       if (e.key === "Enter") commitRename();
                       if (e.key === "Escape") setEditingId(null);
                     }}
-                    className="w-full rounded-md border border-brand-400 px-3 py-2 text-sm focus:outline-none"
+                    className="input-base w-full"
                   />
                 ) : (
                   <div
                     className={`group flex items-center gap-2 rounded-lg px-3 py-2 text-sm transition ${
                       activeId === c.id
-                        ? "bg-brand-50 text-brand-700"
-                        : "text-slate-700 hover:bg-slate-100"
+                        ? "bg-brand-50 text-brand-700 dark:bg-brand-900/30 dark:text-brand-300"
+                        : "text-slate-700 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
                     }`}
                   >
                     <button
@@ -84,7 +79,7 @@ export default function ConversationSidebar({
                     <div className="flex shrink-0 gap-1 opacity-0 transition group-hover:opacity-100">
                       <button
                         onClick={() => startRename(c)}
-                        className="rounded px-1 text-xs text-slate-400 hover:text-slate-600"
+                        className="rounded px-1 text-xs text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
                         title="重命名"
                       >
                         ✎

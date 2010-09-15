@@ -19,11 +19,10 @@ export default function ProviderSelector({ providers, value, onChange }: Props) 
 
   return (
     <div className="flex items-center gap-2">
-      <label className="text-sm text-slate-500">模型：</label>
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm focus:border-brand-500 focus:outline-none"
+        className="input-base h-9 cursor-pointer py-1.5"
       >
         {providers.map((p) => (
           <option key={p.name} value={p.name} disabled={!p.configured}>
