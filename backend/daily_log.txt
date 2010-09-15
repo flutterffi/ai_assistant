@@ -53,3 +53,4 @@
 [2010-08-27] Reviewed code structure and made notes.
 [2010-09-04] Reviewed security best practices.
 [2010-09-06] Reviewed pull request feedback.
+[2010-09-15] Refactored small utility function.
