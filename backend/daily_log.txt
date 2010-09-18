@@ -55,3 +55,4 @@
 [2010-09-06] Reviewed pull request feedback.
 [2010-09-15] Refactored small utility function.
 [2010-09-17] Reviewed test coverage gaps.
+[2010-09-18] Refactored small utility function.
