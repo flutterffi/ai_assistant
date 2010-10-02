@@ -57,3 +57,4 @@
 [2010-09-17] Reviewed test coverage gaps.
 [2010-09-18] Refactored small utility function.
 [2010-09-24] Reviewed pull request feedback.
+[2010-10-02] Reviewed security best practices.
