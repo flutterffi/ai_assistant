@@ -15,6 +15,7 @@ export const conversationApi = (id: string) => `${CONVERSATIONS_API}/${id}`;
 export const conversationMessagesApi = (id: string) =>
   `${CONVERSATIONS_API}/${id}/messages`;
 export const SEARCH_API = `${API_BASE_URL}/api/search`;
+export const UPLOAD_API = `${API_BASE_URL}/api/upload`;
 
 export interface Conversation {
   id: string;

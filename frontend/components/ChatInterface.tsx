@@ -12,6 +12,7 @@ import { useLocalStorage } from "@/lib/useLocalStorage";
 import {
   CHAT_API,
   PROVIDERS_API,
+  UPLOAD_API,
   conversationApi,
   type Conversation,
   type ConversationMessage,
@@ -46,7 +47,7 @@ export default function ChatInterface() {
     return list;
   };
 
-  const { messages, input, handleInputChange, handleSubmit, isLoading, error, setMessages } =
+  const { messages, input, handleInputChange, handleSubmit, isLoading, error, setMessages, stop, setInput } =
     useChat({
       api: CHAT_API,
       body: {
@@ -135,6 +136,36 @@ export default function ChatInterface() {
     setActiveConv(null);
   };
 
+  // 文件上传：提取文本并插入到输入框
+  const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const form = new FormData();
+    form.append("file", file);
+    try {
+      const res = await fetch(UPLOAD_API, { method: "POST", body: form });
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        alert(err.detail ?? "上传失败");
+        return;
+      }
+      const data = await res.json();
+      const snippet = data.content.slice(0, settings.maxTokens ? 4000 : 8000);
+      setInput(input ? `${input}\n\n${snippet}` : snippet);
+    } catch (err) {
+      console.error("upload failed:", err);
+      alert("上传失败");
+    } finally {
+      e.target.value = "";
+    }
+  };
+
+  // 搜索结果跳转到对应会话
+  const handleJumpToMessage = (conversationId: string) => {
+    const conv = conversations.find((c) => c.id === conversationId);
+    if (conv) loadConversation(conv);
+  };
+
   return (
     <div className="flex h-screen bg-slate-50 dark:bg-slate-950">
       <ConversationSidebar
@@ -144,6 +175,7 @@ export default function ChatInterface() {
         onCreate={handleCreate}
         onRename={renameConversation}
         onDelete={handleDelete}
+        onJumpToMessage={handleJumpToMessage}
       />
 
       <div className="flex flex-1 flex-col">
@@ -191,7 +223,11 @@ export default function ChatInterface() {
           onSubmit={handleSubmit}
           className="border-t border-slate-200 bg-white p-4 dark:border-slate-800 dark:bg-slate-900"
         >
-          <div className="mx-auto flex max-w-3xl gap-2">
+          <div className="mx-auto flex max-w-3xl items-center gap-2">
+            <label className="btn-ghost flex h-10 w-10 cursor-pointer items-center justify-center p-0" title="上传文本文件">
+              📎
+              <input type="file" className="hidden" accept=".txt,.md,.json,.csv,.log,.py,.js,.ts,.html,.css" onChange={handleFileUpload} />
+            </label>
             <input
               className="input-base flex-1"
               placeholder="输入消息…（Shift+Enter 换行）"
@@ -199,9 +235,15 @@ export default function ChatInterface() {
               onChange={handleInputChange}
               disabled={isLoading}
             />
-            <button type="submit" disabled={isLoading || !input.trim()} className="btn-primary">
-              {isLoading ? "生成中…" : "发送"}
-            </button>
+            {isLoading ? (
+              <button type="button" onClick={() => stop()} className="btn-ghost">
+                ⏹ 停止
+              </button>
+            ) : (
+              <button type="submit" disabled={!input.trim()} className="btn-primary">
+                发送
+              </button>
+            )}
           </div>
         </form>
       </div>

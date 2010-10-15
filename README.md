@@ -1,6 +1,6 @@
 # AI Assistant
 
-基于「前后端分离 + 安全网关」架构的 AI 助手。前端只负责界面与流式渲染，所有模型 API Key 由后端持有并中转调用，支持 Kimi 与 Codex（OpenAI 兼容）供应商。
+基于「前后端分离 + 安全网关」架构的 AI 助手。功能设计参考 LibreChat（多会话管理、系统提示词、临时对话、RAG 文件上传、消息搜索），界面交互参考 Zola（简洁响应式、暗/亮主题、shadcn 风格组件）。前端只负责界面与流式渲染，所有模型 API Key 由后端持有并中转调用，支持 Kimi 与 Codex（OpenAI 兼容）供应商。
 
 ## 架构
 
@@ -84,6 +84,13 @@ docker compose up -d --build
 | GET  | `/health/detail` | 健康检查 + 供应商配置状态 |
 | GET  | `/api/providers` | 供应商名称列表 |
 | GET  | `/api/providers/detail` | 供应商详情（默认模型、密钥是否配置） |
+| GET  | `/api/conversations` | 会话列表 |
+| POST | `/api/conversations` | 创建会话（支持系统提示词、临时对话） |
+| GET  | `/api/conversations/{id}` | 会话详情（含消息历史） |
+| PATCH| `/api/conversations/{id}` | 更新会话（标题、供应商、系统提示词） |
+| DELETE | `/api/conversations/{id}` | 删除会话 |
+| GET  | `/api/search?keyword=` | 跨会话搜索消息 |
+| POST | `/api/upload` | 上传文本文件，返回提取的文本（RAG 基础） |
 | POST | `/api/chat` | 流式对话（数据流协议） |
 
 ### `/api/chat` 请求体
@@ -133,3 +140,7 @@ docker compose up -d --build
 | v0.4.0 | 2010-04 | 安全网关加固：请求ID + 输入校验 + 健康详情 |
 | v0.5.0 | 2010-05 | 会话持久化 + 模型参数设置面板 |
 | v0.6.0 | 2010-06 | Docker 部署 + 文档完善 |
+| v0.7.0 | 2010-07 | 后端会话管理：SQLite 持久化 + 会话 CRUD API |
+| v0.8.0 | 2010-08 | 前端会话管理：侧边栏 + 历史加载 |
+| v0.9.0 | 2010-09 | Zola 风格 UI：暗/亮主题 + 系统提示词 + 临时对话 |
+| v1.0.0 | 2010-10 | RAG 文件上传 + 消息搜索 + 停止生成 |

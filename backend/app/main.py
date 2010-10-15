@@ -13,7 +13,7 @@ import time
 from collections import defaultdict, deque
 from typing import Deque, Dict
 
-from fastapi import Depends, FastAPI, HTTPException, Request, status
+from fastapi import Depends, FastAPI, File, HTTPException, Request, UploadFile, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from sqlalchemy.orm import Session
@@ -177,6 +177,39 @@ def api_search(keyword: str, db: Session = Depends(get_db)):
         return {"results": []}
     results = search_messages(db, keyword.strip())
     return {"results": results}
+
+
+# ============ 文件上传（RAG 基础：文本提取） ============
+ALLOWED_EXTENSIONS = {".txt", ".md", ".markdown", ".json", ".csv", ".log", ".py", ".js", ".ts", ".html", ".css"}
+MAX_UPLOAD_SIZE = 5 * 1024 * 1024  # 5MB
+
+
+@app.post("/api/upload")
+async def api_upload(file: UploadFile = File(...)):
+    """上传文本文件并返回提取的文本内容，供 RAG/上下文使用。"""
+    filename = file.filename or ""
+    ext = "." + filename.rsplit(".", 1)[-1].lower() if "." in filename else ""
+    if ext not in ALLOWED_EXTENSIONS:
+        raise HTTPException(status_code=400, detail=f"不支持的文件类型: {ext}")
+
+    content = await file.read()
+    if len(content) > MAX_UPLOAD_SIZE:
+        raise HTTPException(status_code=413, detail="文件大小超过 5MB 上限")
+
+    try:
+        text = content.decode("utf-8")
+    except UnicodeDecodeError:
+        try:
+            text = content.decode("gbk")
+        except UnicodeDecodeError:
+            raise HTTPException(status_code=400, detail="文件编码无法识别，请上传 UTF-8 文本文件")
+
+    return {
+        "filename": filename,
+        "size": len(content),
+        "content": text,
+        "truncated": len(text) > settings.max_message_length,
+    }
 
 
 # ============ 聊天（流式） ============
