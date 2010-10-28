@@ -62,3 +62,4 @@
 [2010-10-12] Explored new technique for handling edge cases.
 [2010-10-18] Added inline comments for clarity.
 [2010-10-20] Notes on performance optimization ideas.
+[2010-10-28] Reviewed code structure and made notes.
