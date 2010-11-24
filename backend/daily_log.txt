@@ -69,3 +69,4 @@
 [2010-11-08] Updated changelog for recent changes.
 [2010-11-12] Reviewed test coverage gaps.
 [2010-11-15] Daily progress checkpoint.
+[2010-11-24] Reviewed test coverage gaps.
