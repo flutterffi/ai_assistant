@@ -71,3 +71,4 @@
 [2010-11-15] Daily progress checkpoint.
 [2010-11-24] Reviewed test coverage gaps.
 [2010-11-26] Notes on architecture decision trade-offs.
+[2010-11-30] Reviewed code structure and made notes.
