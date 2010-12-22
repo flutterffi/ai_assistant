@@ -77,3 +77,4 @@
 [2010-12-09] Reviewed code structure and made notes.
 [2010-12-12] Reviewed pull request feedback.
 [2010-12-13] Refactored small utility function.
+[2010-12-22] Reviewed code structure and made notes.
