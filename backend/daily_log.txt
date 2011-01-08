@@ -82,3 +82,4 @@
 [2010-12-30] Reviewed pull request feedback.
 [2011-01-01] Fixed inconsistent naming convention.
 [2011-01-07] Documented API behavior changes.
+[2011-01-08] Notes on performance optimization ideas.
