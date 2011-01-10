@@ -83,3 +83,4 @@
 [2011-01-01] Fixed inconsistent naming convention.
 [2011-01-07] Documented API behavior changes.
 [2011-01-08] Notes on performance optimization ideas.
+[2011-01-10] Updated changelog for recent changes.
