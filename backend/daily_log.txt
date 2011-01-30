@@ -86,3 +86,4 @@
 [2011-01-10] Updated changelog for recent changes.
 [2011-01-18] Reviewed test coverage gaps.
 [2011-01-25] Reviewed pull request feedback.
+[2011-01-30] Reviewed code structure and made notes.
