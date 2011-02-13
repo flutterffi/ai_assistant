@@ -89,3 +89,4 @@
 [2011-01-30] Reviewed code structure and made notes.
 [2011-01-31] Added new insights from reading.
 [2011-02-07] Fixed inconsistent naming convention.
+[2011-02-13] Added new insights from reading.
