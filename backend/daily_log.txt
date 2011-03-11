@@ -93,3 +93,4 @@
 [2011-02-22] Notes on performance optimization ideas.
 [2011-02-25] Reviewed code structure and made notes.
 [2011-03-03] Refactored small utility function.
+[2011-03-11] Daily progress checkpoint.
