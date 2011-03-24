@@ -95,3 +95,4 @@
 [2011-03-03] Refactored small utility function.
 [2011-03-11] Daily progress checkpoint.
 [2011-03-17] Refactored small utility function.
+[2011-03-24] Added new insights from reading.
