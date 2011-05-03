@@ -103,3 +103,4 @@
 [2011-04-18] Updated changelog for recent changes.
 [2011-04-25] Explored new technique for handling edge cases.
 [2011-04-27] Documented debugging session findings.
+[2011-05-03] Documented debugging session findings.
