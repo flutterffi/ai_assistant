@@ -106,3 +106,4 @@
 [2011-05-03] Documented debugging session findings.
 [2011-05-04] Updated documentation references.
 [2011-05-13] Refactored small utility function.
+[2011-05-19] Notes on architecture decision trade-offs.
