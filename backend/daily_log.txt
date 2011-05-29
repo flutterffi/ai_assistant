@@ -109,3 +109,4 @@
 [2011-05-19] Notes on architecture decision trade-offs.
 [2011-05-25] Reviewed code structure and made notes.
 [2011-05-28] Reviewed pull request feedback.
+[2011-05-29] Notes on performance optimization ideas.
