@@ -111,3 +111,4 @@
 [2011-05-28] Reviewed pull request feedback.
 [2011-05-29] Notes on performance optimization ideas.
 [2011-06-07] Updated coding standards reference.
+[2011-06-08] Notes on architecture decision trade-offs.
