@@ -112,3 +112,4 @@
 [2011-05-29] Notes on performance optimization ideas.
 [2011-06-07] Updated coding standards reference.
 [2011-06-08] Notes on architecture decision trade-offs.
+[2011-06-17] Reviewed code structure and made notes.
