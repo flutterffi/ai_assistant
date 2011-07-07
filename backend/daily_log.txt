@@ -115,3 +115,4 @@
 [2011-06-17] Reviewed code structure and made notes.
 [2011-06-23] Fixed minor formatting issues.
 [2011-07-01] Explored new technique for handling edge cases.
+[2011-07-07] Documented debugging session findings.
