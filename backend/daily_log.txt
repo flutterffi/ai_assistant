@@ -120,3 +120,4 @@
 [2011-07-20] Added inline comments for clarity.
 [2011-07-27] Fixed minor formatting issues.
 [2011-08-04] Notes on performance optimization ideas.
+[2011-08-11] Updated project dependencies notes.
