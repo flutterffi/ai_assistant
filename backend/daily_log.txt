@@ -123,3 +123,4 @@
 [2011-08-11] Updated project dependencies notes.
 [2011-08-15] Notes on performance optimization ideas.
 [2011-08-19] Reviewed test coverage gaps.
+[2011-08-24] Documented API behavior changes.
