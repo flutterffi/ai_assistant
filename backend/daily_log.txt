@@ -125,3 +125,4 @@
 [2011-08-19] Reviewed test coverage gaps.
 [2011-08-24] Documented API behavior changes.
 [2011-08-30] Updated project dependencies notes.
+[2011-09-07] Added new insights from reading.
