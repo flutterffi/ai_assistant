@@ -130,3 +130,4 @@
 [2011-09-15] Documented API behavior changes.
 [2011-09-24] Notes on performance optimization ideas.
 [2011-09-29] Explored new technique for handling edge cases.
+[2011-10-02] Documented API behavior changes.
