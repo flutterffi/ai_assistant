@@ -133,3 +133,4 @@
 [2011-10-02] Documented API behavior changes.
 [2011-10-09] Refactored small utility function.
 [2011-10-15] Notes on architecture decision trade-offs.
+[2011-10-23] Notes on architecture decision trade-offs.
