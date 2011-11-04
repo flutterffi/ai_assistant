@@ -136,3 +136,4 @@
 [2011-10-23] Notes on architecture decision trade-offs.
 [2011-10-31] Notes on architecture decision trade-offs.
 [2011-11-01] Notes on performance optimization ideas.
+[2011-11-04] Documented API behavior changes.
