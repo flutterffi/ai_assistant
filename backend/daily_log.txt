@@ -141,3 +141,4 @@
 [2011-11-15] Documented debugging session findings.
 [2011-11-22] Updated project dependencies notes.
 [2011-11-27] Updated project dependencies notes.
+[2011-12-02] Updated documentation references.
