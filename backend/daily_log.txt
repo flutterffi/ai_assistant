@@ -143,3 +143,4 @@
 [2011-11-27] Updated project dependencies notes.
 [2011-12-02] Updated documentation references.
 [2011-12-10] Explored new technique for handling edge cases.
+[2011-12-17] Refactored small utility function.
