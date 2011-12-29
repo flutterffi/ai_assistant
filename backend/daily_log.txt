@@ -146,3 +146,4 @@
 [2011-12-17] Refactored small utility function.
 [2011-12-23] Reviewed code structure and made notes.
 [2011-12-24] Refactored small utility function.
+[2011-12-29] Reviewed pull request feedback.
