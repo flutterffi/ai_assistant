@@ -150,3 +150,4 @@
 [2011-12-30] Fixed inconsistent naming convention.
 [2012-01-01] Updated project dependencies notes.
 [2012-01-09] Fixed inconsistent naming convention.
+[2012-01-13] Fixed inconsistent naming convention.
