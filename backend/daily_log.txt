@@ -153,3 +153,4 @@
 [2012-01-13] Fixed inconsistent naming convention.
 [2012-01-18] Refactored small utility function.
 [2012-01-20] Updated project dependencies notes.
+[2012-01-26] Reviewed code structure and made notes.
