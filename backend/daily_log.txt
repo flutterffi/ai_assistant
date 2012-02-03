@@ -154,3 +154,4 @@
 [2012-01-18] Refactored small utility function.
 [2012-01-20] Updated project dependencies notes.
 [2012-01-26] Reviewed code structure and made notes.
+[2012-02-03] Notes on architecture decision trade-offs.
