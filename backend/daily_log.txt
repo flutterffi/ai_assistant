@@ -158,3 +158,4 @@
 [2012-02-11] Updated documentation references.
 [2012-02-15] Reviewed code structure and made notes.
 [2012-02-24] Notes on architecture decision trade-offs.
+[2012-02-28] Reviewed test coverage gaps.
