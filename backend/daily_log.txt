@@ -164,3 +164,4 @@
 [2012-03-10] Notes on performance optimization ideas.
 [2012-03-11] Daily progress checkpoint.
 [2012-03-14] Updated documentation references.
+[2012-03-22] Updated coding standards reference.
