@@ -165,3 +165,4 @@
 [2012-03-11] Daily progress checkpoint.
 [2012-03-14] Updated documentation references.
 [2012-03-22] Updated coding standards reference.
+[2012-03-31] Reviewed code structure and made notes.
