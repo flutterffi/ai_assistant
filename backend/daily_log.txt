@@ -168,3 +168,4 @@
 [2012-03-31] Reviewed code structure and made notes.
 [2012-04-01] Documented API behavior changes.
 [2012-04-04] Daily progress checkpoint.
+[2012-04-06] Added inline comments for clarity.
