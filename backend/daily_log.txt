@@ -172,3 +172,4 @@
 [2012-04-08] Documented API behavior changes.
 [2012-04-10] Updated changelog for recent changes.
 [2012-04-15] Reviewed pull request feedback.
+[2012-04-18] Reviewed test coverage gaps.
