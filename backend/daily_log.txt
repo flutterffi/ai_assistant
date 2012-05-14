@@ -178,3 +178,4 @@
 [2012-05-04] Cleaned up unused imports.
 [2012-05-11] Cleaned up unused imports.
 [2012-05-13] Added inline comments for clarity.
+[2012-05-14] Notes on architecture decision trade-offs.
