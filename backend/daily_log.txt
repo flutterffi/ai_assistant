@@ -181,3 +181,4 @@
 [2012-05-14] Notes on architecture decision trade-offs.
 [2012-05-22] Reviewed pull request feedback.
 [2012-05-30] Refactored small utility function.
+[2012-06-08] Updated documentation references.
