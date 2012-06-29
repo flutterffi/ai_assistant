@@ -185,3 +185,4 @@
 [2012-06-11] Documented API behavior changes.
 [2012-06-18] Reviewed pull request feedback.
 [2012-06-22] Updated changelog for recent changes.
+[2012-06-29] Updated coding standards reference.
