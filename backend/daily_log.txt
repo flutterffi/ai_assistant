@@ -191,3 +191,4 @@
 [2012-07-04] Documented API behavior changes.
 [2012-07-10] Explored new technique for handling edge cases.
 [2012-07-15] Notes on performance optimization ideas.
+[2012-07-19] Documented debugging session findings.
