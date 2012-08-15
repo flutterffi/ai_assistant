@@ -195,3 +195,4 @@
 [2012-07-25] Refactored small utility function.
 [2012-07-28] Notes on performance optimization ideas.
 [2012-08-06] Documented debugging session findings.
+[2012-08-15] Updated project dependencies notes.
