@@ -199,3 +199,4 @@
 [2012-08-16] Added new insights from reading.
 [2012-08-25] Fixed inconsistent naming convention.
 [2012-08-29] Updated coding standards reference.
+[2012-09-06] Updated coding standards reference.
