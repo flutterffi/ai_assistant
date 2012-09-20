@@ -202,3 +202,4 @@
 [2012-09-06] Updated coding standards reference.
 [2012-09-15] Updated coding standards reference.
 [2012-09-18] Reviewed test coverage gaps.
+[2012-09-20] Notes on architecture decision trade-offs.
