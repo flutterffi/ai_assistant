@@ -204,3 +204,4 @@
 [2012-09-18] Reviewed test coverage gaps.
 [2012-09-20] Notes on architecture decision trade-offs.
 [2012-09-26] Notes on performance optimization ideas.
+[2012-09-30] Fixed minor formatting issues.
