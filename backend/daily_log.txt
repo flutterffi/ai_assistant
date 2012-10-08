@@ -205,3 +205,4 @@
 [2012-09-20] Notes on architecture decision trade-offs.
 [2012-09-26] Notes on performance optimization ideas.
 [2012-09-30] Fixed minor formatting issues.
+[2012-10-08] Documented debugging session findings.
