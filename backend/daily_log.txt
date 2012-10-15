@@ -208,3 +208,4 @@
 [2012-10-08] Documented debugging session findings.
 [2012-10-11] Reviewed test coverage gaps.
 [2012-10-13] Reviewed code structure and made notes.
+[2012-10-15] Updated coding standards reference.
