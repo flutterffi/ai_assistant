@@ -213,3 +213,4 @@
 [2012-10-27] Reviewed test coverage gaps.
 [2012-11-02] Reviewed code structure and made notes.
 [2012-11-09] Updated project dependencies notes.
+[2012-11-12] Added new insights from reading.
