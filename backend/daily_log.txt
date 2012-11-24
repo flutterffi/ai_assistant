@@ -215,3 +215,4 @@
 [2012-11-09] Updated project dependencies notes.
 [2012-11-12] Added new insights from reading.
 [2012-11-20] Documented debugging session findings.
+[2012-11-24] Notes on performance optimization ideas.
