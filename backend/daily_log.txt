@@ -221,3 +221,4 @@
 [2012-12-12] Reviewed code structure and made notes.
 [2012-12-16] Updated changelog for recent changes.
 [2012-12-21] Reviewed code structure and made notes.
+[2012-12-22] Added inline comments for clarity.
