@@ -223,3 +223,4 @@
 [2012-12-21] Reviewed code structure and made notes.
 [2012-12-22] Added inline comments for clarity.
 [2012-12-23] Daily progress checkpoint.
+[2012-12-24] Updated documentation references.
