@@ -225,3 +225,4 @@
 [2012-12-23] Daily progress checkpoint.
 [2012-12-24] Updated documentation references.
 [2012-12-27] Notes on performance optimization ideas.
+[2012-12-30] Notes on performance optimization ideas.
