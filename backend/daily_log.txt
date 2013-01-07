@@ -227,3 +227,4 @@
 [2012-12-27] Notes on performance optimization ideas.
 [2012-12-30] Notes on performance optimization ideas.
 [2013-01-01] Updated changelog for recent changes.
+[2013-01-07] Reviewed security best practices.
