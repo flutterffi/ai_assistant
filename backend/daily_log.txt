@@ -229,3 +229,4 @@
 [2013-01-01] Updated changelog for recent changes.
 [2013-01-07] Reviewed security best practices.
 [2013-01-12] Reviewed pull request feedback.
+[2013-01-14] Updated coding standards reference.
