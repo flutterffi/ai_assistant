@@ -235,3 +235,4 @@
 [2013-01-27] Reviewed code structure and made notes.
 [2013-01-29] Reviewed pull request feedback.
 [2013-02-07] Added new insights from reading.
+[2013-02-09] Reviewed security best practices.
