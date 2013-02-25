@@ -238,3 +238,4 @@
 [2013-02-09] Reviewed security best practices.
 [2013-02-12] Updated project dependencies notes.
 [2013-02-17] Fixed inconsistent naming convention.
+[2013-02-25] Reviewed code structure and made notes.
