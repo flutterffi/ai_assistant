@@ -241,3 +241,4 @@
 [2013-02-25] Reviewed code structure and made notes.
 [2013-03-05] Updated coding standards reference.
 [2013-03-10] Documented API behavior changes.
+[2013-03-14] Refactored small utility function.
