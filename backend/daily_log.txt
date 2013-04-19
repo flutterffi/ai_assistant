@@ -250,3 +250,4 @@
 [2013-04-10] Fixed minor formatting issues.
 [2013-04-14] Fixed inconsistent naming convention.
 [2013-04-18] Reviewed test coverage gaps.
+[2013-04-19] Notes on performance optimization ideas.
