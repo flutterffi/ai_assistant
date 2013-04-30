@@ -252,3 +252,4 @@
 [2013-04-18] Reviewed test coverage gaps.
 [2013-04-19] Notes on performance optimization ideas.
 [2013-04-23] Updated project dependencies notes.
+[2013-04-30] Notes on performance optimization ideas.
