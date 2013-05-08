@@ -255,3 +255,4 @@
 [2013-04-30] Notes on performance optimization ideas.
 [2013-05-02] Updated coding standards reference.
 [2013-05-06] Updated documentation references.
+[2013-05-08] Added new insights from reading.
