@@ -263,3 +263,4 @@
 [2013-06-05] Fixed minor formatting issues.
 [2013-06-11] Updated documentation references.
 [2013-06-14] Notes on performance optimization ideas.
+[2013-06-15] Reviewed pull request feedback.
