@@ -265,3 +265,4 @@
 [2013-06-14] Notes on performance optimization ideas.
 [2013-06-15] Reviewed pull request feedback.
 [2013-06-23] Refactored small utility function.
+[2013-06-30] Fixed minor formatting issues.
