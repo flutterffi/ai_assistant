@@ -268,3 +268,4 @@
 [2013-06-30] Fixed minor formatting issues.
 [2013-07-07] Notes on performance optimization ideas.
 [2013-07-16] Added inline comments for clarity.
+[2013-07-24] Added inline comments for clarity.
