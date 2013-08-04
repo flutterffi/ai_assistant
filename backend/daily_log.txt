@@ -271,3 +271,4 @@
 [2013-07-24] Added inline comments for clarity.
 [2013-07-27] Added inline comments for clarity.
 [2013-08-03] Cleaned up unused imports.
+[2013-08-04] Notes on performance optimization ideas.
