@@ -273,3 +273,4 @@
 [2013-08-03] Cleaned up unused imports.
 [2013-08-04] Notes on performance optimization ideas.
 [2013-08-08] Reviewed test coverage gaps.
+[2013-08-16] Reviewed code structure and made notes.
