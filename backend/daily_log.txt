@@ -275,3 +275,4 @@
 [2013-08-08] Reviewed test coverage gaps.
 [2013-08-16] Reviewed code structure and made notes.
 [2013-08-22] Reviewed code structure and made notes.
+[2013-08-26] Notes on performance optimization ideas.
