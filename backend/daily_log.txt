@@ -276,3 +276,4 @@
 [2013-08-16] Reviewed code structure and made notes.
 [2013-08-22] Reviewed code structure and made notes.
 [2013-08-26] Notes on performance optimization ideas.
+[2013-08-28] Added inline comments for clarity.
