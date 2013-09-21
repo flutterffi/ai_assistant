@@ -280,3 +280,4 @@
 [2013-09-06] Reviewed test coverage gaps.
 [2013-09-15] Reviewed security best practices.
 [2013-09-20] Fixed minor formatting issues.
+[2013-09-21] Notes on performance optimization ideas.
