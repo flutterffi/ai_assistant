@@ -283,3 +283,4 @@
 [2013-09-21] Notes on performance optimization ideas.
 [2013-09-22] Notes on architecture decision trade-offs.
 [2013-09-24] Notes on architecture decision trade-offs.
+[2013-10-01] Daily progress checkpoint.
