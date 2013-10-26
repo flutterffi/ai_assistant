@@ -287,3 +287,4 @@
 [2013-10-09] Reviewed code structure and made notes.
 [2013-10-18] Reviewed test coverage gaps.
 [2013-10-25] Daily progress checkpoint.
+[2013-10-26] Refactored small utility function.
