@@ -293,3 +293,4 @@
 [2013-11-05] Reviewed security best practices.
 [2013-11-10] Daily progress checkpoint.
 [2013-11-16] Refactored small utility function.
+[2013-11-20] Daily progress checkpoint.
