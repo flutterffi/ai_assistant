@@ -295,3 +295,4 @@
 [2013-11-16] Refactored small utility function.
 [2013-11-20] Daily progress checkpoint.
 [2013-11-27] Updated project dependencies notes.
+[2013-11-29] Reviewed code structure and made notes.
