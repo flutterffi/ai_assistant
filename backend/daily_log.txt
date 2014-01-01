@@ -301,3 +301,4 @@
 [2013-12-14] Updated project dependencies notes.
 [2013-12-22] Added inline comments for clarity.
 [2013-12-27] Updated coding standards reference.
+[2014-01-01] Documented API behavior changes.
