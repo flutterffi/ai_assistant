@@ -305,3 +305,4 @@
 [2014-01-03] Refactored small utility function.
 [2014-01-06] Documented API behavior changes.
 [2014-01-11] Added inline comments for clarity.
+[2014-01-16] Reviewed test coverage gaps.
