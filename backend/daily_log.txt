@@ -318,3 +318,4 @@
 [2014-02-21] Updated project dependencies notes.
 [2014-02-23] Updated documentation references.
 [2014-02-26] Reviewed code structure and made notes.
+[2014-02-28] Documented API behavior changes.
