@@ -324,3 +324,4 @@
 [2014-03-11] Documented debugging session findings.
 [2014-03-13] Explored new technique for handling edge cases.
 [2014-03-16] Reviewed security best practices.
+[2014-03-21] Fixed inconsistent naming convention.
