@@ -328,3 +328,4 @@
 [2014-03-23] Updated project dependencies notes.
 [2014-03-27] Daily progress checkpoint.
 [2014-03-29] Notes on performance optimization ideas.
+[2014-04-03] Reviewed security best practices.
