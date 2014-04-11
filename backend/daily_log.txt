@@ -330,3 +330,4 @@
 [2014-03-29] Notes on performance optimization ideas.
 [2014-04-03] Reviewed security best practices.
 [2014-04-08] Notes on architecture decision trade-offs.
+[2014-04-11] Explored new technique for handling edge cases.
