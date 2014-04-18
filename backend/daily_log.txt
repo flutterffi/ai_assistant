@@ -332,3 +332,4 @@
 [2014-04-08] Notes on architecture decision trade-offs.
 [2014-04-11] Explored new technique for handling edge cases.
 [2014-04-13] Added new insights from reading.
+[2014-04-18] Updated documentation references.
