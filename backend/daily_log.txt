@@ -334,3 +334,4 @@
 [2014-04-13] Added new insights from reading.
 [2014-04-18] Updated documentation references.
 [2014-04-21] Notes on performance optimization ideas.
+[2014-04-26] Reviewed security best practices.
