@@ -336,3 +336,4 @@
 [2014-04-21] Notes on performance optimization ideas.
 [2014-04-26] Reviewed security best practices.
 [2014-04-28] Notes on performance optimization ideas.
+[2014-04-30] Updated project dependencies notes.
