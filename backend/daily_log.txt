@@ -337,3 +337,4 @@
 [2014-04-26] Reviewed security best practices.
 [2014-04-28] Notes on performance optimization ideas.
 [2014-04-30] Updated project dependencies notes.
+[2014-05-03] Explored new technique for handling edge cases.
