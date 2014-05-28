@@ -344,3 +344,4 @@
 [2014-05-16] Cleaned up unused imports.
 [2014-05-21] Added inline comments for clarity.
 [2014-05-24] Reviewed security best practices.
+[2014-05-28] Reviewed test coverage gaps.
