@@ -347,3 +347,4 @@
 [2014-05-28] Reviewed test coverage gaps.
 [2014-06-01] Added new insights from reading.
 [2014-06-03] Updated coding standards reference.
+[2014-06-07] Fixed inconsistent naming convention.
