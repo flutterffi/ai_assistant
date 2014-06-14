@@ -349,3 +349,4 @@
 [2014-06-03] Updated coding standards reference.
 [2014-06-07] Fixed inconsistent naming convention.
 [2014-06-12] Cleaned up unused imports.
+[2014-06-14] Updated documentation references.
