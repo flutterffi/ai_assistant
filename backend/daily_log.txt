@@ -353,3 +353,4 @@
 [2014-06-18] Added inline comments for clarity.
 [2014-06-22] Reviewed code structure and made notes.
 [2014-06-25] Refactored small utility function.
+[2014-06-29] Updated documentation references.
