@@ -355,3 +355,4 @@
 [2014-06-25] Refactored small utility function.
 [2014-06-29] Updated documentation references.
 [2014-07-04] Updated documentation references.
+[2014-07-09] Fixed inconsistent naming convention.
