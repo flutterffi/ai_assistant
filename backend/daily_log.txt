@@ -359,3 +359,4 @@
 [2014-07-12] Reviewed pull request feedback.
 [2014-07-15] Fixed inconsistent naming convention.
 [2014-07-19] Reviewed test coverage gaps.
+[2014-07-24] Documented API behavior changes.
