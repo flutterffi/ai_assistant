@@ -361,3 +361,4 @@
 [2014-07-19] Reviewed test coverage gaps.
 [2014-07-24] Documented API behavior changes.
 [2014-07-29] Reviewed test coverage gaps.
+[2014-08-01] Notes on performance optimization ideas.
