@@ -365,3 +365,4 @@
 [2014-08-03] Refactored small utility function.
 [2014-08-08] Reviewed security best practices.
 [2014-08-11] Fixed inconsistent naming convention.
+[2014-08-16] Fixed minor formatting issues.
