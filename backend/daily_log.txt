@@ -368,3 +368,4 @@
 [2014-08-16] Fixed minor formatting issues.
 [2014-08-20] Notes on performance optimization ideas.
 [2014-08-24] Daily progress checkpoint.
+[2014-08-26] Documented debugging session findings.
