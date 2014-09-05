@@ -371,3 +371,4 @@
 [2014-08-26] Documented debugging session findings.
 [2014-08-28] Reviewed test coverage gaps.
 [2014-09-02] Documented debugging session findings.
+[2014-09-05] Added inline comments for clarity.
