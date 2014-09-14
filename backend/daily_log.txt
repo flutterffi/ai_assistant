@@ -374,3 +374,4 @@
 [2014-09-05] Added inline comments for clarity.
 [2014-09-07] Reviewed test coverage gaps.
 [2014-09-12] Added inline comments for clarity.
+[2014-09-14] Updated documentation references.
