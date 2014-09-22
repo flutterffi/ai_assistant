@@ -376,3 +376,4 @@
 [2014-09-12] Added inline comments for clarity.
 [2014-09-14] Updated documentation references.
 [2014-09-19] Refactored small utility function.
+[2014-09-22] Documented debugging session findings.
