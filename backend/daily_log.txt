@@ -378,3 +378,4 @@
 [2014-09-19] Refactored small utility function.
 [2014-09-22] Documented debugging session findings.
 [2014-09-27] Documented API behavior changes.
+[2014-10-02] Reviewed pull request feedback.
