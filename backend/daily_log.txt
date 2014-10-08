@@ -380,3 +380,4 @@
 [2014-09-27] Documented API behavior changes.
 [2014-10-02] Reviewed pull request feedback.
 [2014-10-04] Added inline comments for clarity.
+[2014-10-08] Added inline comments for clarity.
