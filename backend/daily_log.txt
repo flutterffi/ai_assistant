@@ -381,3 +381,4 @@
 [2014-10-02] Reviewed pull request feedback.
 [2014-10-04] Added inline comments for clarity.
 [2014-10-08] Added inline comments for clarity.
+[2014-10-11] Updated documentation references.
