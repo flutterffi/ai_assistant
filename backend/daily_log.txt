@@ -384,3 +384,4 @@
 [2014-10-11] Updated documentation references.
 [2014-10-13] Documented debugging session findings.
 [2014-10-17] Explored new technique for handling edge cases.
+[2014-10-22] Reviewed test coverage gaps.
