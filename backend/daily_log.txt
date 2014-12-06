@@ -398,3 +398,4 @@
 [2014-11-27] Notes on architecture decision trade-offs.
 [2014-11-30] Reviewed test coverage gaps.
 [2014-12-02] Fixed minor formatting issues.
+[2014-12-06] Daily progress checkpoint.
