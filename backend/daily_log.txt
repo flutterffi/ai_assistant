@@ -399,3 +399,4 @@
 [2014-11-30] Reviewed test coverage gaps.
 [2014-12-02] Fixed minor formatting issues.
 [2014-12-06] Daily progress checkpoint.
+[2014-12-11] Documented debugging session findings.
