@@ -400,3 +400,4 @@
 [2014-12-02] Fixed minor formatting issues.
 [2014-12-06] Daily progress checkpoint.
 [2014-12-11] Documented debugging session findings.
+[2014-12-15] Explored new technique for handling edge cases.
