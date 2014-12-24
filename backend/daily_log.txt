@@ -402,3 +402,4 @@
 [2014-12-11] Documented debugging session findings.
 [2014-12-15] Explored new technique for handling edge cases.
 [2014-12-19] Updated documentation references.
+[2014-12-24] Fixed inconsistent naming convention.
