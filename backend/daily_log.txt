@@ -403,3 +403,4 @@
 [2014-12-15] Explored new technique for handling edge cases.
 [2014-12-19] Updated documentation references.
 [2014-12-24] Fixed inconsistent naming convention.
+[2014-12-29] Reviewed pull request feedback.
