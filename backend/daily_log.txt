@@ -479,3 +479,4 @@
 [2015-01-01] Reviewed test coverage gaps.
 [2015-01-02] Notes on performance optimization ideas.
 [2015-01-11] Documented API behavior changes.
+[2015-01-17] Updated project dependencies notes.
