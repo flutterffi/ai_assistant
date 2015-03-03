@@ -486,3 +486,4 @@
 [2015-02-19] Cleaned up unused imports.
 [2015-02-22] Documented debugging session findings.
 [2015-02-25] Fixed minor formatting issues.
+[2015-03-03] Fixed inconsistent naming convention.
