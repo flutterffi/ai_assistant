@@ -489,3 +489,4 @@
 [2015-03-03] Fixed inconsistent naming convention.
 [2015-03-09] Explored new technique for handling edge cases.
 [2015-03-11] Fixed minor formatting issues.
+[2015-03-15] Added inline comments for clarity.
