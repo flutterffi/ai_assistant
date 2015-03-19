@@ -490,3 +490,4 @@
 [2015-03-09] Explored new technique for handling edge cases.
 [2015-03-11] Fixed minor formatting issues.
 [2015-03-15] Added inline comments for clarity.
+[2015-03-19] Fixed minor formatting issues.
