@@ -491,3 +491,4 @@
 [2015-03-11] Fixed minor formatting issues.
 [2015-03-15] Added inline comments for clarity.
 [2015-03-19] Fixed minor formatting issues.
+[2015-03-21] Notes on architecture decision trade-offs.
