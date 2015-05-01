@@ -499,3 +499,4 @@
 [2015-04-16] Reviewed pull request feedback.
 [2015-04-20] Notes on performance optimization ideas.
 [2015-04-27] Reviewed security best practices.
+[2015-05-01] Updated changelog for recent changes.
