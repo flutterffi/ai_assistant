@@ -503,3 +503,4 @@
 [2015-05-08] Updated coding standards reference.
 [2015-05-15] Documented debugging session findings.
 [2015-05-23] Fixed minor formatting issues.
+[2015-05-25] Added inline comments for clarity.
