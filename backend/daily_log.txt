@@ -506,3 +506,4 @@
 [2015-05-25] Added inline comments for clarity.
 [2015-05-28] Updated coding standards reference.
 [2015-05-31] Updated changelog for recent changes.
+[2015-06-07] Updated project dependencies notes.
