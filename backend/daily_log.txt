@@ -508,3 +508,4 @@
 [2015-05-31] Updated changelog for recent changes.
 [2015-06-07] Updated project dependencies notes.
 [2015-06-09] Fixed inconsistent naming convention.
+[2015-06-15] Reviewed code structure and made notes.
