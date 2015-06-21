@@ -510,3 +510,4 @@
 [2015-06-09] Fixed inconsistent naming convention.
 [2015-06-15] Reviewed code structure and made notes.
 [2015-06-20] Fixed minor formatting issues.
+[2015-06-21] Updated project dependencies notes.
