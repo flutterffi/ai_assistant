@@ -513,3 +513,4 @@
 [2015-06-21] Updated project dependencies notes.
 [2015-06-28] Documented API behavior changes.
 [2015-06-30] Documented API behavior changes.
+[2015-07-04] Updated project dependencies notes.
