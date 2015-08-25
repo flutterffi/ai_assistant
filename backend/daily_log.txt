@@ -522,3 +522,4 @@
 [2015-08-06] Reviewed code structure and made notes.
 [2015-08-09] Explored new technique for handling edge cases.
 [2015-08-18] Notes on performance optimization ideas.
+[2015-08-25] Refactored small utility function.
