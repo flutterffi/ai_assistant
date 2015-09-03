@@ -524,3 +524,4 @@
 [2015-08-18] Notes on performance optimization ideas.
 [2015-08-25] Refactored small utility function.
 [2015-08-31] Fixed minor formatting issues.
+[2015-09-03] Reviewed test coverage gaps.
