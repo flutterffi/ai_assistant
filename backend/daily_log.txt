@@ -526,3 +526,4 @@
 [2015-08-31] Fixed minor formatting issues.
 [2015-09-03] Reviewed test coverage gaps.
 [2015-09-04] Notes on performance optimization ideas.
+[2015-09-06] Added new insights from reading.
