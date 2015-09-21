@@ -529,3 +529,4 @@
 [2015-09-06] Added new insights from reading.
 [2015-09-13] Documented API behavior changes.
 [2015-09-16] Fixed inconsistent naming convention.
+[2015-09-21] Explored new technique for handling edge cases.
