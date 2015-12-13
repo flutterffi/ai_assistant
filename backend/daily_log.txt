@@ -546,3 +546,4 @@
 [2015-11-28] Refactored small utility function.
 [2015-12-05] Notes on performance optimization ideas.
 [2015-12-10] Explored new technique for handling edge cases.
+[2015-12-13] Documented API behavior changes.
