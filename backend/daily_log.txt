@@ -551,3 +551,4 @@
 [2015-12-20] Notes on architecture decision trade-offs.
 [2015-12-25] Daily progress checkpoint.
 [2015-12-26] Updated documentation references.
+[2015-12-31] Updated coding standards reference.
