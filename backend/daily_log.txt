@@ -632,3 +632,4 @@
 [2016-01-21] Notes on performance optimization ideas.
 [2016-01-28] Updated changelog for recent changes.
 [2016-02-05] Fixed minor formatting issues.
+[2016-02-13] Reviewed security best practices.
