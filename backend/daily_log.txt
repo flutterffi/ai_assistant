@@ -634,3 +634,4 @@
 [2016-02-05] Fixed minor formatting issues.
 [2016-02-13] Reviewed security best practices.
 [2016-02-22] Updated project dependencies notes.
+[2016-02-26] Added inline comments for clarity.
