@@ -635,3 +635,4 @@
 [2016-02-13] Reviewed security best practices.
 [2016-02-22] Updated project dependencies notes.
 [2016-02-26] Added inline comments for clarity.
+[2016-03-04] Documented debugging session findings.
