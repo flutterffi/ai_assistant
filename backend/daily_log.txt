@@ -640,3 +640,4 @@
 [2016-03-18] Refactored small utility function.
 [2016-03-23] Added inline comments for clarity.
 [2016-03-26] Reviewed code structure and made notes.
+[2016-03-28] Documented debugging session findings.
