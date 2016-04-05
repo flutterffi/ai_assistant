@@ -642,3 +642,4 @@
 [2016-03-26] Reviewed code structure and made notes.
 [2016-03-28] Documented debugging session findings.
 [2016-04-01] Cleaned up unused imports.
+[2016-04-05] Notes on architecture decision trade-offs.
