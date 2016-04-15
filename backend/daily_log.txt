@@ -645,3 +645,4 @@
 [2016-04-05] Notes on architecture decision trade-offs.
 [2016-04-06] Reviewed pull request feedback.
 [2016-04-11] Explored new technique for handling edge cases.
+[2016-04-15] Fixed minor formatting issues.
