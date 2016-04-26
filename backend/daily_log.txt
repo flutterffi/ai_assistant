@@ -647,3 +647,4 @@
 [2016-04-11] Explored new technique for handling edge cases.
 [2016-04-15] Fixed minor formatting issues.
 [2016-04-24] Added new insights from reading.
+[2016-04-26] Refactored small utility function.
