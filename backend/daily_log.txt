@@ -652,3 +652,4 @@
 [2016-05-03] Daily progress checkpoint.
 [2016-05-06] Updated project dependencies notes.
 [2016-05-08] Fixed inconsistent naming convention.
+[2016-05-15] Reviewed code structure and made notes.
