@@ -653,3 +653,4 @@
 [2016-05-06] Updated project dependencies notes.
 [2016-05-08] Fixed inconsistent naming convention.
 [2016-05-15] Reviewed code structure and made notes.
+[2016-05-18] Added new insights from reading.
