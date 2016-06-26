@@ -658,3 +658,4 @@
 [2016-06-03] Reviewed test coverage gaps.
 [2016-06-09] Documented API behavior changes.
 [2016-06-17] Reviewed code structure and made notes.
+[2016-06-26] Notes on architecture decision trade-offs.
