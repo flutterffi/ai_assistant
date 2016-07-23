@@ -662,3 +662,4 @@
 [2016-06-28] Cleaned up unused imports.
 [2016-07-06] Documented debugging session findings.
 [2016-07-14] Reviewed test coverage gaps.
+[2016-07-23] Updated project dependencies notes.
