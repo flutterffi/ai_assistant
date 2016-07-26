@@ -664,3 +664,4 @@
 [2016-07-14] Reviewed test coverage gaps.
 [2016-07-23] Updated project dependencies notes.
 [2016-07-25] Notes on architecture decision trade-offs.
+[2016-07-26] Documented API behavior changes.
