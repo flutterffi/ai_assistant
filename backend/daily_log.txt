@@ -668,3 +668,4 @@
 [2016-08-04] Documented API behavior changes.
 [2016-08-11] Notes on architecture decision trade-offs.
 [2016-08-17] Notes on performance optimization ideas.
+[2016-08-21] Updated documentation references.
