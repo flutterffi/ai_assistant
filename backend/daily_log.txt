@@ -669,3 +669,4 @@
 [2016-08-11] Notes on architecture decision trade-offs.
 [2016-08-17] Notes on performance optimization ideas.
 [2016-08-21] Updated documentation references.
+[2016-08-22] Updated coding standards reference.
