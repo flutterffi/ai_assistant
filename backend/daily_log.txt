@@ -677,3 +677,4 @@
 [2016-09-25] Added new insights from reading.
 [2016-10-04] Refactored small utility function.
 [2016-10-11] Updated documentation references.
+[2016-10-18] Updated changelog for recent changes.
