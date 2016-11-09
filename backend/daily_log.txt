@@ -682,3 +682,4 @@
 [2016-10-27] Reviewed pull request feedback.
 [2016-10-28] Documented debugging session findings.
 [2016-10-31] Reviewed security best practices.
+[2016-11-09] Updated changelog for recent changes.
