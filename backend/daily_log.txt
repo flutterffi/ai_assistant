@@ -689,3 +689,4 @@
 [2016-12-06] Daily progress checkpoint.
 [2016-12-08] Documented API behavior changes.
 [2016-12-16] Fixed minor formatting issues.
+[2016-12-21] Updated documentation references.
