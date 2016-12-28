@@ -691,3 +691,4 @@
 [2016-12-16] Fixed minor formatting issues.
 [2016-12-21] Updated documentation references.
 [2016-12-27] Fixed inconsistent naming convention.
+[2016-12-28] Notes on architecture decision trade-offs.
