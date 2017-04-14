@@ -715,3 +715,4 @@
 [2017-04-01] Added inline comments for clarity.
 [2017-04-05] Updated project dependencies notes.
 [2017-04-08] Updated documentation references.
+[2017-04-14] Updated documentation references.
