@@ -720,3 +720,4 @@
 [2017-04-18] Added inline comments for clarity.
 [2017-04-20] Reviewed pull request feedback.
 [2017-04-27] Cleaned up unused imports.
+[2017-05-05] Documented API behavior changes.
