@@ -731,3 +731,4 @@
 [2017-05-30] Documented debugging session findings.
 [2017-05-31] Updated documentation references.
 [2017-06-01] Reviewed code structure and made notes.
+[2017-06-05] Reviewed pull request feedback.
