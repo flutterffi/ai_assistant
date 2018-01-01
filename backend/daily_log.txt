@@ -1048,3 +1048,4 @@
 [2020-12-21] Daily progress checkpoint.
 [2020-12-24] Notes on architecture decision trade-offs.
 [2020-12-29] Updated coding standards reference.
+[2018-01-01] Added new insights from reading.
