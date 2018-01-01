@@ -928,3 +928,4 @@
 [2021-12-15] Refactored small utility function.
 [2021-12-22] Added inline comments for clarity.
 [2021-12-28] Refactored small utility function.
+[2018-01-01] Notes on architecture decision trade-offs.
