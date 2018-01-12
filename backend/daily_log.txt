@@ -784,3 +784,4 @@
 [2018-01-01] Daily progress checkpoint.
 [2018-01-04] Daily progress checkpoint.
 [2018-01-11] Daily progress checkpoint.
+[2018-01-12] Updated project dependencies notes.
