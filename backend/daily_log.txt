@@ -1053,3 +1053,4 @@
 [2018-01-14] Reviewed security best practices.
 [2018-01-18] Documented API behavior changes.
 [2018-01-22] Updated project dependencies notes.
+[2018-01-24] Updated coding standards reference.
