@@ -1054,3 +1054,4 @@
 [2018-01-18] Documented API behavior changes.
 [2018-01-22] Updated project dependencies notes.
 [2018-01-24] Updated coding standards reference.
+[2018-01-28] Refactored small utility function.
