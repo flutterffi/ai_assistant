@@ -1056,3 +1056,4 @@
 [2018-01-24] Updated coding standards reference.
 [2018-01-28] Refactored small utility function.
 [2018-02-01] Notes on architecture decision trade-offs.
+[2018-02-04] Notes on performance optimization ideas.
