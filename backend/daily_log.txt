@@ -931,3 +931,4 @@
 [2018-01-01] Notes on architecture decision trade-offs.
 [2018-01-15] Fixed minor formatting issues.
 [2018-01-29] Updated documentation references.
+[2018-02-06] Fixed minor formatting issues.
