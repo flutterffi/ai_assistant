@@ -1060,3 +1060,4 @@
 [2018-02-08] Reviewed test coverage gaps.
 [2018-02-14] Updated changelog for recent changes.
 [2018-02-17] Added new insights from reading.
+[2018-02-21] Reviewed test coverage gaps.
