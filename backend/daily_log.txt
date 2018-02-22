@@ -792,3 +792,4 @@
 [2018-02-08] Notes on performance optimization ideas.
 [2018-02-14] Cleaned up unused imports.
 [2018-02-16] Daily progress checkpoint.
+[2018-02-22] Reviewed security best practices.
