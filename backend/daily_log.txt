@@ -794,3 +794,4 @@
 [2018-02-16] Daily progress checkpoint.
 [2018-02-22] Reviewed security best practices.
 [2018-02-27] Fixed inconsistent naming convention.
+[2018-03-01] Added inline comments for clarity.
