@@ -933,3 +933,4 @@
 [2018-01-29] Updated documentation references.
 [2018-02-06] Fixed minor formatting issues.
 [2018-02-20] Reviewed pull request feedback.
+[2018-03-07] Daily progress checkpoint.
