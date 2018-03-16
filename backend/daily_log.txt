@@ -1066,3 +1066,4 @@
 [2018-03-06] Reviewed code structure and made notes.
 [2018-03-09] Updated documentation references.
 [2018-03-12] Updated documentation references.
+[2018-03-16] Refactored small utility function.
