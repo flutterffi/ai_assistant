@@ -1069,3 +1069,4 @@
 [2018-03-16] Refactored small utility function.
 [2018-03-23] Daily progress checkpoint.
 [2018-03-27] Updated coding standards reference.
+[2018-03-29] Documented debugging session findings.
