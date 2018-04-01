@@ -1070,3 +1070,4 @@
 [2018-03-23] Daily progress checkpoint.
 [2018-03-27] Updated coding standards reference.
 [2018-03-29] Documented debugging session findings.
+[2018-04-01] Updated project dependencies notes.
