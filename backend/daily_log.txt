@@ -801,3 +801,4 @@
 [2018-03-21] Updated documentation references.
 [2018-03-30] Reviewed pull request feedback.
 [2018-04-03] Updated coding standards reference.
+[2018-04-12] Fixed minor formatting issues.
