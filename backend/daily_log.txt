@@ -803,3 +803,4 @@
 [2018-04-03] Updated coding standards reference.
 [2018-04-12] Fixed minor formatting issues.
 [2018-04-17] Notes on performance optimization ideas.
+[2018-04-23] Updated coding standards reference.
