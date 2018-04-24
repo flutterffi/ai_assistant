@@ -1074,3 +1074,4 @@
 [2018-04-08] Updated project dependencies notes.
 [2018-04-14] Reviewed test coverage gaps.
 [2018-04-19] Explored new technique for handling edge cases.
+[2018-04-24] Added new insights from reading.
