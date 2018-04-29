@@ -805,3 +805,4 @@
 [2018-04-17] Notes on performance optimization ideas.
 [2018-04-23] Updated coding standards reference.
 [2018-04-27] Documented API behavior changes.
+[2018-04-29] Updated project dependencies notes.
