@@ -1077,3 +1077,4 @@
 [2018-04-24] Added new insights from reading.
 [2018-05-01] Updated coding standards reference.
 [2018-05-03] Documented API behavior changes.
+[2018-05-07] Notes on architecture decision trade-offs.
