@@ -1079,3 +1079,4 @@
 [2018-05-03] Documented API behavior changes.
 [2018-05-07] Notes on architecture decision trade-offs.
 [2018-05-13] Updated coding standards reference.
+[2018-05-18] Reviewed pull request feedback.
