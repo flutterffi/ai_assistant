@@ -1080,3 +1080,4 @@
 [2018-05-07] Notes on architecture decision trade-offs.
 [2018-05-13] Updated coding standards reference.
 [2018-05-18] Reviewed pull request feedback.
+[2018-05-22] Reviewed code structure and made notes.
