@@ -1082,3 +1082,4 @@
 [2018-05-18] Reviewed pull request feedback.
 [2018-05-22] Reviewed code structure and made notes.
 [2018-05-24] Explored new technique for handling edge cases.
+[2018-05-28] Notes on architecture decision trade-offs.
