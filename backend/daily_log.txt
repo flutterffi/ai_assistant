@@ -810,3 +810,4 @@
 [2018-05-14] Daily progress checkpoint.
 [2018-05-23] Cleaned up unused imports.
 [2018-05-27] Updated changelog for recent changes.
+[2018-05-31] Notes on architecture decision trade-offs.
