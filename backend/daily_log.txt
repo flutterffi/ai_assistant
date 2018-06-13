@@ -944,3 +944,4 @@
 [2018-05-19] Daily progress checkpoint.
 [2018-05-29] Updated coding standards reference.
 [2018-06-03] Reviewed pull request feedback.
+[2018-06-13] Notes on performance optimization ideas.
