@@ -813,3 +813,4 @@
 [2018-05-31] Notes on architecture decision trade-offs.
 [2018-06-02] Documented debugging session findings.
 [2018-06-10] Added new insights from reading.
+[2018-06-18] Reviewed code structure and made notes.
