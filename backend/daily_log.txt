@@ -1087,3 +1087,4 @@
 [2018-06-04] Reviewed code structure and made notes.
 [2018-06-07] Daily progress checkpoint.
 [2018-06-14] Updated documentation references.
+[2018-06-21] Reviewed test coverage gaps.
