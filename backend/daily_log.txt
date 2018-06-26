@@ -814,3 +814,4 @@
 [2018-06-02] Documented debugging session findings.
 [2018-06-10] Added new insights from reading.
 [2018-06-18] Reviewed code structure and made notes.
+[2018-06-26] Reviewed security best practices.
