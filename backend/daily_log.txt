@@ -1089,3 +1089,4 @@
 [2018-06-14] Updated documentation references.
 [2018-06-21] Reviewed test coverage gaps.
 [2018-06-28] Added new insights from reading.
+[2018-07-03] Updated documentation references.
