@@ -817,3 +817,4 @@
 [2018-06-26] Reviewed security best practices.
 [2018-06-30] Daily progress checkpoint.
 [2018-07-04] Fixed inconsistent naming convention.
+[2018-07-06] Updated documentation references.
