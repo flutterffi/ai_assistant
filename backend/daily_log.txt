@@ -947,3 +947,4 @@
 [2018-06-13] Notes on performance optimization ideas.
 [2018-06-21] Fixed inconsistent naming convention.
 [2018-06-26] Updated documentation references.
+[2018-07-09] Added new insights from reading.
