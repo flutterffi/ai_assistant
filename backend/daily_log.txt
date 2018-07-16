@@ -819,3 +819,4 @@
 [2018-07-04] Fixed inconsistent naming convention.
 [2018-07-06] Updated documentation references.
 [2018-07-12] Updated changelog for recent changes.
+[2018-07-16] Fixed minor formatting issues.
