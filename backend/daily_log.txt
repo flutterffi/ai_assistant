@@ -949,3 +949,4 @@
 [2018-06-26] Updated documentation references.
 [2018-07-09] Added new insights from reading.
 [2018-07-15] Updated coding standards reference.
+[2018-07-29] Updated coding standards reference.
