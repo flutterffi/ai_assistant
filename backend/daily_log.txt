@@ -1096,3 +1096,4 @@
 [2018-07-21] Added inline comments for clarity.
 [2018-07-23] Explored new technique for handling edge cases.
 [2018-07-29] Reviewed security best practices.
+[2018-08-04] Updated changelog for recent changes.
