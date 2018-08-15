@@ -1098,3 +1098,4 @@
 [2018-07-29] Reviewed security best practices.
 [2018-08-04] Updated changelog for recent changes.
 [2018-08-11] Fixed inconsistent naming convention.
+[2018-08-15] Fixed inconsistent naming convention.
