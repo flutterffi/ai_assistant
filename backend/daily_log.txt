@@ -1099,3 +1099,4 @@
 [2018-08-04] Updated changelog for recent changes.
 [2018-08-11] Fixed inconsistent naming convention.
 [2018-08-15] Fixed inconsistent naming convention.
+[2018-08-21] Notes on performance optimization ideas.
