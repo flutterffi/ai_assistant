@@ -826,3 +826,4 @@
 [2018-08-17] Updated changelog for recent changes.
 [2018-08-22] Updated documentation references.
 [2018-08-27] Notes on architecture decision trade-offs.
+[2018-09-01] Notes on performance optimization ideas.
