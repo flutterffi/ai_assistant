@@ -1104,3 +1104,4 @@
 [2018-09-01] Documented API behavior changes.
 [2018-09-04] Refactored small utility function.
 [2018-09-07] Reviewed pull request feedback.
+[2018-09-10] Updated documentation references.
