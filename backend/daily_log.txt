@@ -1107,3 +1107,4 @@
 [2018-09-10] Updated documentation references.
 [2018-09-16] Reviewed test coverage gaps.
 [2018-09-18] Added new insights from reading.
+[2018-09-20] Updated changelog for recent changes.
