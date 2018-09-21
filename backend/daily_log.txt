@@ -954,3 +954,4 @@
 [2018-08-23] Updated project dependencies notes.
 [2018-09-03] Reviewed pull request feedback.
 [2018-09-09] Explored new technique for handling edge cases.
+[2018-09-21] Updated coding standards reference.
