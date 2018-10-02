@@ -1109,3 +1109,4 @@
 [2018-09-18] Added new insights from reading.
 [2018-09-20] Updated changelog for recent changes.
 [2018-09-27] Added new insights from reading.
+[2018-10-02] Reviewed pull request feedback.
