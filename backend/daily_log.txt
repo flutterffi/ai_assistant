@@ -956,3 +956,4 @@
 [2018-09-09] Explored new technique for handling edge cases.
 [2018-09-21] Updated coding standards reference.
 [2018-09-27] Daily progress checkpoint.
+[2018-10-05] Fixed inconsistent naming convention.
