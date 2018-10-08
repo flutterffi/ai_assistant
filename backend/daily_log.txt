@@ -833,3 +833,4 @@
 [2018-09-20] Added new insights from reading.
 [2018-09-27] Reviewed security best practices.
 [2018-10-03] Updated changelog for recent changes.
+[2018-10-08] Updated coding standards reference.
