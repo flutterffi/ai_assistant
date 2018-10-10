@@ -1111,3 +1111,4 @@
 [2018-09-27] Added new insights from reading.
 [2018-10-02] Reviewed pull request feedback.
 [2018-10-08] Added inline comments for clarity.
+[2018-10-10] Reviewed security best practices.
