@@ -1112,3 +1112,4 @@
 [2018-10-02] Reviewed pull request feedback.
 [2018-10-08] Added inline comments for clarity.
 [2018-10-10] Reviewed security best practices.
+[2018-10-15] Fixed inconsistent naming convention.
