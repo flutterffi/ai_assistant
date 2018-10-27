@@ -836,3 +836,4 @@
 [2018-10-08] Updated coding standards reference.
 [2018-10-17] Explored new technique for handling edge cases.
 [2018-10-19] Fixed inconsistent naming convention.
+[2018-10-27] Added new insights from reading.
