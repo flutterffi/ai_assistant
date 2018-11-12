@@ -1118,3 +1118,4 @@
 [2018-10-30] Notes on architecture decision trade-offs.
 [2018-11-04] Reviewed security best practices.
 [2018-11-10] Reviewed security best practices.
+[2018-11-12] Refactored small utility function.
