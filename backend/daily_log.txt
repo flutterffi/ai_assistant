@@ -960,3 +960,4 @@
 [2018-10-15] Reviewed security best practices.
 [2018-10-25] Notes on performance optimization ideas.
 [2018-11-07] Explored new technique for handling edge cases.
+[2018-11-17] Reviewed code structure and made notes.
