@@ -1120,3 +1120,4 @@
 [2018-11-10] Reviewed security best practices.
 [2018-11-12] Refactored small utility function.
 [2018-11-17] Updated project dependencies notes.
+[2018-11-23] Reviewed test coverage gaps.
