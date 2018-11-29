@@ -962,3 +962,4 @@
 [2018-11-07] Explored new technique for handling edge cases.
 [2018-11-17] Reviewed code structure and made notes.
 [2018-11-24] Updated changelog for recent changes.
+[2018-11-29] Notes on performance optimization ideas.
