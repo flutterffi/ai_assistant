@@ -844,3 +844,4 @@
 [2018-11-26] Reviewed pull request feedback.
 [2018-11-27] Updated changelog for recent changes.
 [2018-12-02] Explored new technique for handling edge cases.
+[2018-12-07] Reviewed code structure and made notes.
