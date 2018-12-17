@@ -964,3 +964,4 @@
 [2018-11-24] Updated changelog for recent changes.
 [2018-11-29] Notes on performance optimization ideas.
 [2018-12-12] Updated changelog for recent changes.
+[2018-12-17] Explored new technique for handling edge cases.
