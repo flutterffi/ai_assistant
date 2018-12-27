@@ -848,3 +848,4 @@
 [2018-12-11] Updated changelog for recent changes.
 [2018-12-18] Fixed minor formatting issues.
 [2018-12-26] Fixed inconsistent naming convention.
+[2018-12-27] Reviewed pull request feedback.
