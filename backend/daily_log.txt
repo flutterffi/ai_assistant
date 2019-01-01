@@ -1129,3 +1129,4 @@
 [2018-12-19] Updated changelog for recent changes.
 [2018-12-23] Daily progress checkpoint.
 [2018-12-29] Fixed inconsistent naming convention.
+[2019-01-01] Updated documentation references.
