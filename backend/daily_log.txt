@@ -1133,3 +1133,4 @@
 [2019-01-07] Added inline comments for clarity.
 [2019-01-12] Cleaned up unused imports.
 [2019-01-21] Updated coding standards reference.
+[2019-01-24] Refactored small utility function.
