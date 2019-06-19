@@ -1158,3 +1158,4 @@
 [2019-06-01] Notes on architecture decision trade-offs.
 [2019-06-07] Reviewed pull request feedback.
 [2019-06-15] Cleaned up unused imports.
+[2019-06-19] Fixed minor formatting issues.
