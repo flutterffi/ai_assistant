@@ -1165,3 +1165,4 @@
 [2019-07-08] Reviewed test coverage gaps.
 [2019-07-17] Fixed inconsistent naming convention.
 [2019-07-24] Added new insights from reading.
+[2019-07-25] Fixed inconsistent naming convention.
