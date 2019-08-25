@@ -1169,3 +1169,4 @@
 [2019-08-03] Updated changelog for recent changes.
 [2019-08-11] Reviewed pull request feedback.
 [2019-08-18] Documented API behavior changes.
+[2019-08-25] Updated coding standards reference.
