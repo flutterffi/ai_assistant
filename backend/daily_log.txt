@@ -1175,3 +1175,4 @@
 [2019-09-10] Added new insights from reading.
 [2019-09-11] Added inline comments for clarity.
 [2019-09-12] Added new insights from reading.
+[2019-09-17] Reviewed security best practices.
