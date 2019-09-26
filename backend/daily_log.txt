@@ -1177,3 +1177,4 @@
 [2019-09-12] Added new insights from reading.
 [2019-09-17] Reviewed security best practices.
 [2019-09-22] Updated changelog for recent changes.
+[2019-09-26] Updated documentation references.
