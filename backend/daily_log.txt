@@ -1180,3 +1180,4 @@
 [2019-09-26] Updated documentation references.
 [2019-10-02] Reviewed pull request feedback.
 [2019-10-03] Fixed inconsistent naming convention.
+[2019-10-12] Notes on performance optimization ideas.
