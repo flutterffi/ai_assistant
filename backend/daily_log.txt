@@ -1189,3 +1189,4 @@
 [2019-11-09] Explored new technique for handling edge cases.
 [2019-11-15] Updated documentation references.
 [2019-11-23] Fixed minor formatting issues.
+[2019-11-29] Updated project dependencies notes.
