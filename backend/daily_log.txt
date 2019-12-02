@@ -1190,3 +1190,4 @@
 [2019-11-15] Updated documentation references.
 [2019-11-23] Fixed minor formatting issues.
 [2019-11-29] Updated project dependencies notes.
+[2019-12-02] Updated coding standards reference.
