@@ -1191,3 +1191,4 @@
 [2019-11-23] Fixed minor formatting issues.
 [2019-11-29] Updated project dependencies notes.
 [2019-12-02] Updated coding standards reference.
+[2019-12-07] Added new insights from reading.
