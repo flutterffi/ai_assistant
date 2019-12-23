@@ -1193,3 +1193,4 @@
 [2019-12-02] Updated coding standards reference.
 [2019-12-07] Added new insights from reading.
 [2019-12-14] Updated documentation references.
+[2019-12-23] Updated coding standards reference.
