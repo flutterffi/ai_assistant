@@ -1196,3 +1196,4 @@
 [2019-12-23] Updated coding standards reference.
 [2019-12-29] Added inline comments for clarity.
 [2020-01-01] Refactored small utility function.
+[2020-01-05] Fixed minor formatting issues.
