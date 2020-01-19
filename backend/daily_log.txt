@@ -1198,3 +1198,4 @@
 [2020-01-01] Refactored small utility function.
 [2020-01-05] Fixed minor formatting issues.
 [2020-01-11] Fixed inconsistent naming convention.
+[2020-01-19] Documented debugging session findings.
