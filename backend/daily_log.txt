@@ -973,3 +973,4 @@
 [2020-01-21] Notes on architecture decision trade-offs.
 [2020-01-25] Updated documentation references.
 [2020-02-01] Notes on architecture decision trade-offs.
+[2020-02-09] Documented API behavior changes.
