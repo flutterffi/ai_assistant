@@ -975,3 +975,4 @@
 [2020-02-01] Notes on architecture decision trade-offs.
 [2020-02-09] Documented API behavior changes.
 [2020-02-12] Documented debugging session findings.
+[2020-02-13] Documented API behavior changes.
