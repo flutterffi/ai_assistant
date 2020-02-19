@@ -1207,3 +1207,4 @@
 [2020-02-03] Reviewed code structure and made notes.
 [2020-02-07] Explored new technique for handling edge cases.
 [2020-02-11] Documented debugging session findings.
+[2020-02-19] Documented API behavior changes.
