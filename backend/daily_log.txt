@@ -1210,3 +1210,4 @@
 [2020-02-19] Documented API behavior changes.
 [2020-02-22] Reviewed pull request feedback.
 [2020-02-23] Reviewed test coverage gaps.
+[2020-02-27] Reviewed security best practices.
