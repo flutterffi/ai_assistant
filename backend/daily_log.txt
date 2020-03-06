@@ -980,3 +980,4 @@
 [2020-02-22] Updated changelog for recent changes.
 [2020-02-29] Reviewed code structure and made notes.
 [2020-03-05] Reviewed pull request feedback.
+[2020-03-06] Added inline comments for clarity.
