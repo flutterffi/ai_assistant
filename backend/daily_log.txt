@@ -1218,3 +1218,4 @@
 [2020-04-02] Reviewed test coverage gaps.
 [2020-04-11] Documented debugging session findings.
 [2020-04-17] Updated project dependencies notes.
+[2020-04-20] Updated changelog for recent changes.
