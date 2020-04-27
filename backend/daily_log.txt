@@ -992,3 +992,4 @@
 [2020-04-15] Updated coding standards reference.
 [2020-04-16] Explored new technique for handling edge cases.
 [2020-04-18] Added inline comments for clarity.
+[2020-04-27] Notes on architecture decision trade-offs.
