@@ -1220,3 +1220,4 @@
 [2020-04-17] Updated project dependencies notes.
 [2020-04-20] Updated changelog for recent changes.
 [2020-04-25] Reviewed test coverage gaps.
+[2020-04-30] Documented API behavior changes.
