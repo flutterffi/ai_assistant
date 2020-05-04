@@ -1221,3 +1221,4 @@
 [2020-04-20] Updated changelog for recent changes.
 [2020-04-25] Reviewed test coverage gaps.
 [2020-04-30] Documented API behavior changes.
+[2020-05-04] Explored new technique for handling edge cases.
