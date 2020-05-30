@@ -1001,3 +1001,4 @@
 [2020-05-20] Documented debugging session findings.
 [2020-05-22] Added new insights from reading.
 [2020-05-23] Notes on performance optimization ideas.
+[2020-05-30] Reviewed code structure and made notes.
