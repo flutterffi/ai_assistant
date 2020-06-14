@@ -1004,3 +1004,4 @@
 [2020-05-30] Reviewed code structure and made notes.
 [2020-06-08] Reviewed pull request feedback.
 [2020-06-12] Fixed inconsistent naming convention.
+[2020-06-14] Daily progress checkpoint.
