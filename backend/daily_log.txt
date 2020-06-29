@@ -1233,3 +1233,4 @@
 [2020-06-09] Notes on architecture decision trade-offs.
 [2020-06-15] Notes on architecture decision trade-offs.
 [2020-06-22] Added inline comments for clarity.
+[2020-06-29] Notes on architecture decision trade-offs.
