@@ -1017,3 +1017,4 @@
 [2020-08-01] Reviewed test coverage gaps.
 [2020-08-07] Reviewed security best practices.
 [2020-08-11] Notes on performance optimization ideas.
+[2020-08-12] Added inline comments for clarity.
