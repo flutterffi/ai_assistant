@@ -1242,3 +1242,4 @@
 [2020-08-02] Reviewed test coverage gaps.
 [2020-08-07] Added new insights from reading.
 [2020-08-11] Reviewed security best practices.
+[2020-08-20] Reviewed code structure and made notes.
