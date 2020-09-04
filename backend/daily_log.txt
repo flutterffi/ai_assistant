@@ -1023,3 +1023,4 @@
 [2020-08-21] Added inline comments for clarity.
 [2020-08-27] Explored new technique for handling edge cases.
 [2020-08-29] Notes on performance optimization ideas.
+[2020-09-04] Added new insights from reading.
