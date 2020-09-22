@@ -1249,3 +1249,4 @@
 [2020-09-14] Explored new technique for handling edge cases.
 [2020-09-17] Daily progress checkpoint.
 [2020-09-18] Reviewed code structure and made notes.
+[2020-09-22] Added new insights from reading.
