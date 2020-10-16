@@ -1031,3 +1031,4 @@
 [2020-10-04] Cleaned up unused imports.
 [2020-10-07] Cleaned up unused imports.
 [2020-10-08] Added inline comments for clarity.
+[2020-10-16] Refactored small utility function.
