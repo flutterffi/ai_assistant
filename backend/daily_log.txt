@@ -1254,3 +1254,4 @@
 [2020-10-10] Fixed inconsistent naming convention.
 [2020-10-12] Explored new technique for handling edge cases.
 [2020-10-13] Documented API behavior changes.
+[2020-10-21] Added new insights from reading.
