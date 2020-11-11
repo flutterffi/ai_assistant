@@ -1257,3 +1257,4 @@
 [2020-10-21] Added new insights from reading.
 [2020-10-29] Updated project dependencies notes.
 [2020-11-05] Reviewed test coverage gaps.
+[2020-11-11] Documented debugging session findings.
