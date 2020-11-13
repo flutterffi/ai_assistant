@@ -1035,3 +1035,4 @@
 [2020-10-23] Fixed minor formatting issues.
 [2020-10-31] Documented debugging session findings.
 [2020-11-08] Cleaned up unused imports.
+[2020-11-13] Notes on architecture decision trade-offs.
