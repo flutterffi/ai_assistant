@@ -1036,3 +1036,4 @@
 [2020-10-31] Documented debugging session findings.
 [2020-11-08] Cleaned up unused imports.
 [2020-11-13] Notes on architecture decision trade-offs.
+[2020-11-17] Reviewed test coverage gaps.
