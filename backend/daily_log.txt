@@ -1261,3 +1261,4 @@
 [2020-11-16] Daily progress checkpoint.
 [2020-11-23] Updated changelog for recent changes.
 [2020-11-29] Updated coding standards reference.
+[2020-12-01] Reviewed security best practices.
