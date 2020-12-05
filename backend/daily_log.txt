@@ -1042,3 +1042,4 @@
 [2020-11-21] Fixed inconsistent naming convention.
 [2020-11-25] Updated project dependencies notes.
 [2020-12-04] Cleaned up unused imports.
+[2020-12-05] Notes on performance optimization ideas.
