@@ -1266,3 +1266,4 @@
 [2020-12-10] Cleaned up unused imports.
 [2020-12-12] Refactored small utility function.
 [2020-12-13] Notes on performance optimization ideas.
+[2020-12-21] Reviewed code structure and made notes.
