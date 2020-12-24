@@ -1046,3 +1046,4 @@
 [2020-12-14] Reviewed pull request feedback.
 [2020-12-19] Reviewed code structure and made notes.
 [2020-12-21] Daily progress checkpoint.
+[2020-12-24] Notes on architecture decision trade-offs.
