@@ -1268,3 +1268,4 @@
 [2020-12-13] Notes on performance optimization ideas.
 [2020-12-21] Reviewed code structure and made notes.
 [2020-12-23] Fixed minor formatting issues.
+[2020-12-29] Fixed inconsistent naming convention.
