@@ -862,3 +862,4 @@
 [2021-02-15] Daily progress checkpoint.
 [2021-02-16] Added new insights from reading.
 [2021-02-17] Reviewed code structure and made notes.
+[2021-02-24] Reviewed security best practices.
