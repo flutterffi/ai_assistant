@@ -867,3 +867,4 @@
 [2021-03-07] Daily progress checkpoint.
 [2021-03-14] Notes on architecture decision trade-offs.
 [2021-03-17] Added new insights from reading.
+[2021-03-21] Documented API behavior changes.
