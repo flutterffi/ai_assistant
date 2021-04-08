@@ -870,3 +870,4 @@
 [2021-03-21] Documented API behavior changes.
 [2021-03-23] Notes on architecture decision trade-offs.
 [2021-03-31] Documented API behavior changes.
+[2021-04-08] Explored new technique for handling edge cases.
