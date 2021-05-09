@@ -877,3 +877,4 @@
 [2021-04-24] Reviewed test coverage gaps.
 [2021-04-30] Reviewed test coverage gaps.
 [2021-05-02] Added new insights from reading.
+[2021-05-09] Updated project dependencies notes.
