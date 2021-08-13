@@ -896,3 +896,4 @@
 [2021-07-31] Fixed inconsistent naming convention.
 [2021-08-03] Notes on architecture decision trade-offs.
 [2021-08-04] Added new insights from reading.
+[2021-08-13] Reviewed code structure and made notes.
