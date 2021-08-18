@@ -898,3 +898,4 @@
 [2021-08-04] Added new insights from reading.
 [2021-08-13] Reviewed code structure and made notes.
 [2021-08-14] Reviewed test coverage gaps.
+[2021-08-18] Reviewed security best practices.
