@@ -906,3 +906,4 @@
 [2021-09-11] Updated changelog for recent changes.
 [2021-09-16] Documented debugging session findings.
 [2021-09-21] Daily progress checkpoint.
+[2021-09-24] Notes on architecture decision trade-offs.
