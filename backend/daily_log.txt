@@ -918,3 +918,4 @@
 [2021-10-27] Updated changelog for recent changes.
 [2021-10-28] Notes on performance optimization ideas.
 [2021-11-05] Fixed inconsistent naming convention.
+[2021-11-08] Refactored small utility function.
