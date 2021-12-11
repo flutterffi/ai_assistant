@@ -924,3 +924,4 @@
 [2021-11-23] Fixed minor formatting issues.
 [2021-12-01] Reviewed pull request feedback.
 [2021-12-05] Fixed minor formatting issues.
+[2021-12-11] Documented debugging session findings.
