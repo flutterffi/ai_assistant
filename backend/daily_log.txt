@@ -553,3 +553,4 @@
 [2015-12-26] Updated documentation references.
 [2015-12-31] Updated coding standards reference.
 [2022-01-01] Updated project dependencies notes.
+[2022-01-09] Updated project dependencies notes.
