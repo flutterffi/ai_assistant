@@ -556,3 +556,4 @@
 [2022-01-09] Updated project dependencies notes.
 [2022-01-17] Updated changelog for recent changes.
 [2022-01-26] Explored new technique for handling edge cases.
+[2022-01-29] Refactored small utility function.
