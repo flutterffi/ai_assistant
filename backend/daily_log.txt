@@ -581,3 +581,4 @@
 [2022-05-09] Updated changelog for recent changes.
 [2022-05-16] Refactored small utility function.
 [2022-05-22] Refactored small utility function.
+[2022-05-26] Updated coding standards reference.
