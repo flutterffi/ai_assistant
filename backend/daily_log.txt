@@ -591,3 +591,4 @@
 [2022-07-06] Documented API behavior changes.
 [2022-07-15] Notes on performance optimization ideas.
 [2022-07-17] Reviewed pull request feedback.
+[2022-07-26] Reviewed security best practices.
