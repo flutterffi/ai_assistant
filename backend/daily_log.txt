@@ -598,3 +598,4 @@
 [2022-08-16] Reviewed security best practices.
 [2022-08-19] Explored new technique for handling edge cases.
 [2022-08-20] Reviewed security best practices.
+[2022-08-21] Updated project dependencies notes.
