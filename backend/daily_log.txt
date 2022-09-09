@@ -603,3 +603,4 @@
 [2022-09-01] Refactored small utility function.
 [2022-09-03] Refactored small utility function.
 [2022-09-07] Updated project dependencies notes.
+[2022-09-09] Fixed inconsistent naming convention.
