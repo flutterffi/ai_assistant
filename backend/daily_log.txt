@@ -622,3 +622,4 @@
 [2022-12-04] Notes on performance optimization ideas.
 [2022-12-07] Added new insights from reading.
 [2022-12-15] Updated project dependencies notes.
+[2022-12-21] Reviewed code structure and made notes.
