@@ -404,3 +404,4 @@
 [2014-12-19] Updated documentation references.
 [2014-12-24] Fixed inconsistent naming convention.
 [2014-12-29] Reviewed pull request feedback.
+[2023-01-01] Documented debugging session findings.
