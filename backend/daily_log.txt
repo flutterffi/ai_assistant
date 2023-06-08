@@ -434,3 +434,4 @@
 [2023-05-19] Cleaned up unused imports.
 [2023-05-28] Notes on architecture decision trade-offs.
 [2023-06-02] Cleaned up unused imports.
+[2023-06-08] Added new insights from reading.
